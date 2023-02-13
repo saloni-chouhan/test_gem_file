@@ -3,6 +3,7 @@
 require_relative "test_gem_file/version"
 
 module TestGemFile
-  class Error < StandardError; end
-  # Your code goes here...
+  def print
+    puts "Hello World!"
+  end
 end
